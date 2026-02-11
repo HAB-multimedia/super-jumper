@@ -860,22 +860,22 @@ let pixelsToMeters = 0
 let invincibilityPeriod = 0
 let hero: Sprite = null
 hero = sprites.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . . f f f f f f f f f f . . . 
-    . . f e e e e e e e e e e f . . 
-    . f e e e e e e e e e e e e f . 
-    . f d e e d d d d d d d d d f . 
-    . f d e d d f d d d d f d d f . 
-    . f e d d d f d d d d f d d f . 
-    . . f d d d f d d d d f d d f . 
-    . . f d d d d d d d d d d d f . 
-    . . f b a c c c c c c c c a f . 
-    . . f d d d c c c c c c d d f . 
-    . . f d d f f f b b f f f d f . 
-    . . f b a a a a a a a a a f . . 
-    . . . f b a a f f b a a f . . . 
-    . . . f b a a f f b a a f . . . 
-    . . . . f f f . . f f f . . . . 
+    . . . . . . . . . . . . 
+    . . . f f f f f f . . . 
+    . . f e e e e e f f f . 
+    . f e e e e e e e f f f 
+    f e e e e e e e f f f f 
+    f e e 4 e e e f f f f f 
+    f e e 4 4 e e e f f f f 
+    f f e 4 4 4 4 4 f f f f 
+    . f e 4 4 f f 4 e 4 f f 
+    . . f d d d d 4 d 4 f f 
+    . . f b b d d 4 f f f . 
+    . . f e 4 4 4 e d d 4 . 
+    . . f 1 1 1 1 e d d e . 
+    . f f 6 6 6 6 f e e f . 
+    . f f f f f f f f f f . 
+    . . f f f . . . f f . . 
     `, SpriteKind.Player)
 // how long to pause between each contact with a
 // single enemy

@@ -1,20 +1,20 @@
 <xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="ActionKind" id=";@(6Am,(n~=f5o[];S;W">0RunningLeft</variable><variable type="ActionKind" id="KZF2n2/K_oe9dXe$NZg1">1RunningRight</variable><variable type="ActionKind" id="*O;=#BB54.$/Y2Sr[TjB">2Idle</variable><variable type="ActionKind" id="K-s5i*o9R`B=M|Rg{#jk">3IdleLeft</variable><variable type="ActionKind" id="GRmLe4m[)j@Lmx(KIy5`">4IdleRight</variable><variable type="ActionKind" id="_|LL|Xv~J@Dip+fFYLQ5">5JumpingLeft</variable><variable type="ActionKind" id=":v@?(98}*bo(j=ck0?QC">6JumpingRight</variable><variable type="ActionKind" id="0Bpv|erRSd8pR_:N9Dyp">7CrouchLeft</variable><variable type="ActionKind" id="h1JtmH0e@DvJ$v=f70:L">8CrouchRight</variable><variable type="ActionKind" id="t/~P9ywzmeXEovjB6nhn">9Flying</variable><variable type="ActionKind" id="yx;bVH;y%Uyzec8+W/Su">10Walking</variable><variable type="ActionKind" id="E~cHiixKe`[OM=OQ~a7i">11Jumping</variable><variable type="KIND_SpriteKind" id="4jUoHBu|Pusvs[qC{k,N">Bumper</variable><variable type="KIND_SpriteKind" id="*.AvFQnj37ros8G_L_d[">Goal</variable><variable type="KIND_SpriteKind" id=".=-[xeHzGO(E4_;,;CCZ">Coin</variable><variable type="KIND_SpriteKind" id="p%,tU|zQz;*dr+|Ghk:q">Flier</variable><variable type="KIND_SpriteKind" id=":;u`0PUh=sSJtE{yr_Sw">Player</variable><variable type="KIND_SpriteKind" id=")pyNbs+M*Uz*@7~CYc9^">Projectile</variable><variable type="KIND_SpriteKind" id="C15-S0s|R0aGU=qRYKlQ">Food</variable><variable type="KIND_SpriteKind" id="GOCb8mIY2-LsI|u@x9LR">Enemy</variable><variable id="Y;#gH;Sm]KuWV(/;RL!^">pixelsToMeters</variable><variable id="8Fd3PYtv,^~eT`gpjTYX">invincibilityPeriod</variable><variable id="7d7SfICslZjV{+oer|w#">coinAnimation</variable><variable id="2^!=a7P4k%)Imih@uz)V">hero</variable><variable id="]#Y@L`#PoLi9ojRhKCFm">canDoubleJump</variable><variable id="SFSn}0cPJOzNa{v.%E)i">doubleJumpSpeed</variable><variable id="H7vo)(}qtKL4Pi+7inXT">mainIdleLeft</variable><variable id="}D2H.B)zx1Wlkla^})oL">mainIdleRight</variable><variable id="i=hm%SKqaE@V:MYdducc">flierFlying</variable><variable id="(#Dzxv.(.R[4[Nr)!(26">flierIdle</variable><variable id="3|zZ)Yml`S#sk/6jTi]5">mainRunLeft</variable><variable id="F]aTudI;{XE=m_wpKw*_">mainRunRight</variable><variable id="zbxHOpQPmyWpYHq?DGC,">mainJumpLeft</variable><variable id="N@JxS}vbzbt`E*btN(7]">mainJumpRight</variable><variable id="a[CH2g)Eb|%zj?qKJxXh">mainCrouchLeft</variable><variable id="I+BscgC%RT-D^}!Gp-k^">mainCrouchRight</variable><variable id="l?9f6C#mjDgEZUp}FvwU">value</variable><variable id="zBK`O9/A+[5t)|sO,OMP">value2</variable><variable id="`*}aUozH[$T:7K.vgMpo">value3</variable><variable id="cQkjBrNsnk]dH8t.3nrh">value4</variable><variable id="wLy1Y-;D4hj{7c^%_~jo">value5</variable><variable id="hl4^[oEjl=3Bok6LoFWD">bumper</variable><variable id="U-Zq+K91a@9}Qm~Gef*K">gravity</variable><variable id="!~fgJCVeI)ouv(cwkY=N">value6</variable><variable id="pZt0]h6e.GS%[h*R|hCo">flier</variable><variable id="w$Yj7q9-5Q{00!d*k98I">playerStartLocation</variable><variable id="NAqV.K4i?D#It6P~m-vX">currentLevel</variable><variable id="n%c$_,s,+uco3};#azN{">levelCount</variable><variable id="q/Ch+C1`=$swb*anPi?6">value7</variable><variable id="X=cVwL6g.^X:Z;D1|bl.">coin</variable><variable id="Kz~)+Fmk*hqlz|w*4=sr">heroFacingLeft</variable><variable id="S$=PO=0Y~-6d+$*sY#:{">value8</variable><variable id="ed(*/1~n?/MQBBvi7+13">value9</variable><variable id="-G-P,^~8udwmtMYK{QrV">mySprite</variable></variables><block type="pxt-on-start" id="cW%yWoJf~QOmuGX@A37r" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="w#MHpu|KFRUcr)5oq)#="><field name="VAR" id="2^!=a7P4k%)Imih@uz)V">hero</field><value name="VALUE"><shadow type="math_number" id="5V!E~oK.rU~c-vEr9fZ$"><field name="NUM">0</field></shadow><block type="spritescreate" id="Ph2RK;S=:n*L]ec^(wZR"><value name="img"><shadow type="screen_image_picker" id="0K8ziw^l1F;IUX$RX~r4"><field name="img">img`
-. . . . . . . . . . . . . . . . 
-. . . f f f f f f f f f f . . . 
-. . f e e e e e e e e e e f . . 
-. f e e e e e e e e e e e e f . 
-. f d e e d d d d d d d d d f . 
-. f d e d d f d d d d f d d f . 
-. f e d d d f d d d d f d d f . 
-. . f d d d f d d d d f d d f . 
-. . f d d d d d d d d d d d f . 
-. . f b a c c c c c c c c a f . 
-. . f d d d c c c c c c d d f . 
-. . f d d f f f b b f f f d f . 
-. . f b a a a a a a a a a f . . 
-. . . f b a a f f b a a f . . . 
-. . . f b a a f f b a a f . . . 
-. . . . f f f . . f f f . . . . 
+. . . . . . . . . . . . 
+. . . f f f f f f . . . 
+. . f e e e e e f f f . 
+. f e e e e e e e f f f 
+f e e e e e e e f f f f 
+f e e 4 e e e f f f f f 
+f e e 4 4 e e e f f f f 
+f f e 4 4 4 4 4 f f f f 
+. f e 4 4 f f 4 e 4 f f 
+. . f d d d d 4 d 4 f f 
+. . f b b d d 4 f f f . 
+. . f e 4 4 4 e d d 4 . 
+. . f 1 1 1 1 e d d e . 
+. f f 6 6 6 6 f e e f . 
+. f f f f f f f f f f . 
+. . f f f . . . f f . . 
 `</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="/!=|F{Rcb,A*;S9oVF*`"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="lzyA)*3o8M4}p#k{8hl#"><field name="VAR" id="8Fd3PYtv,^~eT`gpjTYX">invincibilityPeriod</field><comment pinned="false" h="80" w="160">how long to pause between each contact with a
 single enemy</comment><value name="VALUE"><shadow type="math_number" id="qdIl)#=@[6ZH|kq*vKLN"><field name="NUM">600</field></shadow></value><next><block type="variables_set" id="@CHC_,mJZ#Kgi_XZ%%{X"><field name="VAR" id="Y;#gH;Sm]KuWV(/;RL!^">pixelsToMeters</field><value name="VALUE"><shadow type="math_number" id="-|_x(}nO(#r[h-;wySgi"><field name="NUM">30</field></shadow></value><next><block type="variables_set" id="$}.v^{(r8Sc@;lFLctm5"><field name="VAR" id="U-Zq+K91a@9}Qm~Gef*K">gravity</field><value name="VALUE"><shadow type="math_number" id="p8L,RA/Z=C6DjA%Ny;Qo"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="f,Cs2?RaasL)EH4wVrem"><field name="OP">MULTIPLY</field><value name="A"><shadow type="math_number" id="*sloHE1TvL6,4BkuE4Vb"><field name="NUM">9.81</field></shadow></value><value name="B"><shadow type="math_number" id="@BXCd#T3[q6{9%REoem2"><field name="NUM">0</field></shadow><block type="variables_get" id="y4Z9Exsh{n1@GQ#qh~@U"><field name="VAR" id="Y;#gH;Sm]KuWV(/;RL!^">pixelsToMeters</field></block></value></block></value><next><block type="gamesetbackgroundimage" id="N;7al(0r9#*o/)Pbhx4!"><value name="img"><shadow type="background_image_picker" id="}Pol5/b@m!WTp?L3}H28"><field name="img">img`
 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
